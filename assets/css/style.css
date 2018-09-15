@@ -149,7 +149,8 @@ float: right;
 body {
     font-size: 15px;
     line-height: 24px;
-    background:#F8FAFF;
+    background: #DAF9DC;
+    /*background:#F8FAFF;*/
    
 }
 
@@ -731,23 +732,23 @@ footer h3 {
 .carousel-caption .carousel-title {
   color: #ffffff;
 }
-@media (min-width: 768px) and (max-width: 1199px) {
+@media /*(min-width: 850px) and (max-width: 2000px)*/ {
   .carousel-caption {
-    font-size: 12px;
-    padding-bottom: 0px;
-    bottom: 2px;
+    font-size: 40px;
+    padding-bottom: 40%;
+    bottom: 50px;
   }
   .carousel-caption .carousel-title {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
   .carousel-caption {
-    font-size: 11px;
-    padding-bottom: 0;
-    bottom: 0;
+    font-size: 18px;
+    padding-bottom: 40%;
+    bottom: 50px;
   }
   .carousel-caption .carousel-title {
     font-size: 14px;
   }
-}
+}*/
